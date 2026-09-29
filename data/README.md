@@ -5,7 +5,7 @@
 | `inputs/` | Experimental input texts: English source and Italian published reference |
 | `machine_translation/` | Unedited LLM machine-translation outputs |
 | `postedited_translations/` | Post-edited outputs from the controlled-rotation workflow |
-| `annotations/comparative/` | Comparative annotation exports in WebAnno/UIMA XMI format |
+| `annotations/` | Comparative annotation exports in WebAnno/UIMA XMI format |
 
 `manifest.csv` is the condition-level inventory. It uses paths relative to the repository root.
 
