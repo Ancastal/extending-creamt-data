@@ -1,0 +1,14 @@
+asset_type,condition,language,path,description
+input,source,en,data/inputs/source-en.txt,English source excerpt
+input,reference,it,data/inputs/reference-it.txt,Published Italian reference translation used by the novel's publisher
+machine_translation,gpt3.5,it,data/machine_translation/mt_gpt3.5.txt,GPT-3.5 machine translation
+machine_translation,gpt4,it,data/machine_translation/mt_gpt4.txt,GPT-4 machine translation
+machine_translation,mistral,it,data/machine_translation/mt_mistral.txt,Mistral machine translation
+final_translation,source,it,data/final_translations/from_source.txt,Final translation condition from source text
+final_translation,gpt3.5,it,data/final_translations/from_gpt3.5.txt,Final post-edited GPT-3.5 condition
+final_translation,gpt4,it,data/final_translations/from_gpt4.txt,Final post-edited GPT-4 condition
+final_translation,mistral,it,data/final_translations/from_mistral.txt,Final post-edited Mistral condition
+comparative_annotations,from_source,,data/annotations/comparative/from_source/,WebAnno/UIMA XMI comparative annotations
+comparative_annotations,from_gpt3.5,,data/annotations/comparative/from_gpt3.5/,WebAnno/UIMA XMI comparative annotations
+comparative_annotations,from_gpt4,,data/annotations/comparative/from_gpt4/,WebAnno/UIMA XMI comparative annotations
+comparative_annotations,from_mistral,,data/annotations/comparative/from_mistral/,WebAnno/UIMA XMI comparative annotations

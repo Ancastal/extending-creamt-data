@@ -8,16 +8,11 @@ The release contains an English-to-Italian literary translation study with a 141
 
 | Path | Contents |
 | --- | --- |
-| `src.txt` | English source excerpt |
-| `ref.txt` | Published Italian reference translation used by the novel's publisher |
-| `mt_gpt3.5.txt` | GPT-3.5 machine translation |
-| `mt_gpt4.txt` | GPT-4 machine translation |
-| `mt_mistral.txt` | Mistral machine translation |
-| `from_source.txt` | Final translation condition originating from the source text |
-| `from_gpt3.5.txt` | Final post-edited GPT-3.5 translation |
-| `from_gpt4.txt` | Final post-edited GPT-4 translation |
-| `from_mistral.txt` | Final post-edited Mistral translation |
-| `comparative_annotations/` | Comparative WebAnno/UIMA XMI annotation exports, organised by final condition |
+| [`data/inputs/`](data/inputs/) | English source and published Italian reference translation |
+| [`data/machine_translation/`](data/machine_translation/) | GPT-3.5, GPT-4, and Mistral outputs |
+| [`data/final_translations/`](data/final_translations/) | Final translation conditions after controlled rotation |
+| [`data/annotations/comparative/`](data/annotations/comparative/) | Comparative WebAnno/UIMA XMI annotation exports, organised by final condition |
+| [`data/manifest.csv`](data/manifest.csv) | Condition-level inventory and paths |
 
 Text files are UTF-8 plain text. The source and reference each have 141 lines; generated and final conditions retain their original segmentation and therefore contain 139–141 lines. Do not assume line-number alignment across conditions. XMI files retain their original export names and annotations.
 
@@ -37,4 +32,4 @@ Paper: <https://aclanthology.org/2025.mtsummit-1.40/>
 
 The research-created selection, organisation, machine outputs, post-edited outputs, and annotations are available under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Attribution must include the citation above. See [`LICENSE`](LICENSE) and [`RIGHTS.md`](RIGHTS.md).
 
-`src.txt` and `ref.txt` reproduce an excerpt and a published Italian reference translation of a copyrighted novel. They remain the property of their respective rightsholders and are supplied only for non-commercial scholarly research and reproducibility. This repository does not grant a licence to reuse them beyond rights held by the user or an applicable legal exception.
+`data/inputs/source-en.txt` and `data/inputs/reference-it.txt` reproduce an excerpt and a published Italian reference translation of a copyrighted novel. They remain the property of their respective rightsholders and are supplied only for non-commercial scholarly research and reproducibility. This repository does not grant a licence to reuse them beyond rights held by the user or an applicable legal exception.
