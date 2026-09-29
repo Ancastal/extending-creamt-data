@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite the accompanying paper."
+type: dataset
+title: "Extending CREAMT data: Literary translation post-editing"
+authors:
+  - family-names: Castaldo
+    given-names: Antonio
+  - family-names: Castilho
+    given-names: Sheila
+  - family-names: Moorkens
+    given-names: Joss
+  - family-names: Monti
+    given-names: Johanna
+license: CC-BY-NC-4.0
+repository-code: "https://github.com/ancastal/extending-creamt-data"
+preferred-citation:
+  type: conference-paper
+  title: "Extending CREAMT: Leveraging Large Language Models for Literary Translation Post-Editing"
+  authors:
+    - family-names: Castaldo
+      given-names: Antonio
+    - family-names: Castilho
+      given-names: Sheila
+    - family-names: Moorkens
+      given-names: Joss
+    - family-names: Monti
+      given-names: Johanna
+  year: 2025
+  collection-title: "Proceedings of Machine Translation Summit XX: Volume 1"
+  pages: 506-515
+  publisher:
+    name: European Association for Machine Translation
+  location: Geneva, Switzerland
+  url: "https://aclanthology.org/2025.mtsummit-1.40/"

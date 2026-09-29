@@ -1,0 +1,5 @@
+# Windows alternate data streams accidentally copied with annotation exports
+*:Zone.Identifier
+
+# macOS metadata
+.DS_Store
