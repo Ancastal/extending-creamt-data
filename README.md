@@ -10,7 +10,7 @@ The release contains an English-to-Italian literary translation study with a 141
 | --- | --- |
 | [`data/inputs/`](data/inputs/) | English source and published Italian reference translation |
 | [`data/machine_translation/`](data/machine_translation/) | GPT-3.5, GPT-4, and Mistral outputs |
-| [`data/final_translations/`](data/final_translations/) | Final translation conditions after controlled rotation |
+| [`data/postedited_translations/`](data/postedited_translations/) | Post-edited translation conditions after controlled rotation |
 | [`data/annotations/comparative/`](data/annotations/comparative/) | Comparative WebAnno/UIMA XMI annotation exports, organised by final condition |
 | [`data/manifest.csv`](data/manifest.csv) | Condition-level inventory and paths |
 
